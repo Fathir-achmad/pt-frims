@@ -56,7 +56,7 @@ function Footer() {
             </p>
             <div className="d-flex gap-4 justify-content-center justify-content-lg-end">
               <a
-                href="https://www.instagram.com/sans_it_/"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover-social"
@@ -64,7 +64,7 @@ function Footer() {
                 <i className="bi bi-instagram fs-3"></i>
               </a>
               <a
-                href="https://www.facebook.com/Steven.SANS.IT/"
+                href="https://www.facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover-social"
