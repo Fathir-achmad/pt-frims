@@ -1,0 +1,49 @@
+.floating-whatsapp {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  z-index: 9999;
+  gap: 6px;
+}
+
+/* Bubble teks di atas logo */
+.whatsapp-bubble {
+  background-color: #25D366;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* Tombol lingkaran logo WhatsApp */
+.whatsapp-icon {
+  background-color: #25D366;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Efek hover */
+.floating-whatsapp:hover .whatsapp-icon {
+  transform: scale(1.1);
+  background-color: #1ebe5d;
+}
+
+.floating-whatsapp:hover .whatsapp-bubble {
+  background-color: #1ebe5d;
+}

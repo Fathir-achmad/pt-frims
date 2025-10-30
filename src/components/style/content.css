@@ -1,0 +1,152 @@
+:root {
+    --primaryColor: #00A2E9;
+    --hoverColor: #2088ff;
+    --smoothTrans: 0.2s all;
+    --smoothShadow: 0 0 10px rgba(0,0,0,0.03);
+}
+
+/* About */
+
+.row-services .card {
+    border:#ddd solid 1px;
+    box-shadow:var(--smoothShadow);
+    border-radius:20px;
+    transition:0.3s;
+} .row-services .card:hover {
+    border:#00A2E9 solid 1px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    scale:105%;
+}
+
+/* Portofolio */
+
+.portofolio-section .btn {
+    border:1px solid #ddd;
+    border-radius:100px;
+    padding:8px 25px;
+}
+
+.portofolio-section .btn:hover {
+    border:1px solid #333;
+}
+
+.portofolio-section .active-portofolio {
+    border:1px solid #333;
+    background:#333;
+    color:white;
+}
+
+.portofolio-cards .card {
+    border-radius:15px;
+    box-shadow:var(--smoothShadow);
+}
+/* Footer */
+.foo-1,.foo-2 {
+    font-size:0.9em;
+}
+
+.foo-1 a,.foo-3 a {
+    margin-bottom:15px;
+    text-decoration:none;
+    color:#ddd;
+    transition:var(--smoothTrans);
+} .foo-1 a:hover,.foo-3 a:hover {
+    cursor:pointer;
+    color:#fff !important;
+    text-decoration:underline !important;
+}
+
+.hover-lift {
+  transition: all 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.icon-box {
+  transition: all 0.3s ease;
+}
+
+.card:hover .icon-box {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.border-start {
+  border-width: 4px !important;
+}
+
+/* Lead text styling */
+.lead {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* Smooth animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card, .icon-box {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Badge styling */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.portofolio-section {
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.portofolio-section::-webkit-scrollbar {
+    height: 6px;
+}
+
+.portofolio-section::-webkit-scrollbar-thumb {
+    background: #0d6efd;
+    border-radius: 10px;
+}
+
+/* Footer Hover Effects */
+footer .hover-link {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+footer .hover-link:hover {
+  color: #ffffff !important;
+  transform: translateX(5px);
+}
+
+footer .hover-social {
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+footer .hover-social:hover {
+  transform: translateY(-5px);
+  color: #0d6efd !important;
+}
+
+@media (max-width: 992px) {
+    .row-card {
+        text-align: left !important;
+    }
+}
