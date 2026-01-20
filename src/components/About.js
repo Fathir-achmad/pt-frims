@@ -1,6 +1,8 @@
 import './style/content.css';
 import '../../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import Hero from '../assets/industry.jpg';
+import ApiLogo from '../assets/pt-api-logo.png';
+
 
 function About() {
   return (
@@ -103,6 +105,96 @@ function About() {
           </div>
         </div>
 
+                {/* Agencies & Dealers Section */}
+<div className="row mt-5">
+  <div className="col-12 text-center mb-5">
+    <span className="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-3">
+      Agencies & Dealers
+    </span>
+    <h3 className="fw-bold display-6">
+      Agencies & Authorized Dealers
+    </h3>
+    <p className="text-muted">
+      Principal dan mitra resmi yang mendukung solusi marine & industrial kami
+    </p>
+  </div>
+
+  <div className="col-lg-6 mb-4">
+    <div className="card border-0 shadow-sm h-100">
+      <div className="card-body p-4">
+        <h5 className="fw-bold mb-3 text-primary">
+          Main Engines & Generator Engines
+        </h5>
+        <ul className="list-unstyled text-muted mb-0">
+          <li>Yanmar Co., Ltd.</li>
+          <li>Daihatsu Diesel Mfg. Co., Ltd.</li>
+          <li>Mitsubishi Heavy Industries Ltd.</li>
+          <li>Kawasaki Heavy Industries Ltd.</li>
+          <li>IHI Corporation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div className="col-lg-6 mb-4">
+    <div className="card border-0 shadow-sm h-100">
+      <div className="card-body p-4">
+        <h5 className="fw-bold mb-3 text-primary">
+          Auxiliary Equipment
+        </h5>
+        <ul className="list-unstyled text-muted mb-0">
+          <li>Alfa Laval KK</li>
+          <li>Furuno Electric Co., Ltd.</li>
+          <li>Mitsubishi Electric Corp.</li>
+          <li>NABTESCO K.K.</li>
+          <li>Yokogawa Denshi Kiki Co., Ltd.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{/* Strategic Partners Section */}
+<div className="row mt-5">
+  <div className="col-12 text-center mb-5">
+    <span className="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-3">
+      Strategic Partner
+    </span>
+    <h3 className="fw-bold display-6">
+      Our Strategic Partners
+    </h3>
+    <p className="text-muted">
+      Mitra strategis yang mendukung penguatan layanan dan pengembangan bisnis kami
+    </p>
+  </div>
+
+  <div className="col-lg-6 mx-auto">
+    <div className="card border-0 shadow-sm h-100 hover-lift">
+      <div className="card-body p-4 text-center">
+
+        {/* Logo */}
+        <div className="mb-4">
+          <img
+            src={ApiLogo}
+            alt="PT Assindo Perniagaan Internasional"
+            className="img-fluid"
+            style={{ maxHeight: '90px', objectFit: 'contain' }}
+          />
+        </div>
+
+        <h5 className="fw-bold mb-3">
+          PT Assindo Perniagaan Internasional
+        </h5>
+
+        <p className="text-muted mb-0 lh-lg">
+          Mitra strategis PT FRIMS Sukses Bersama yang bergerak di bidang
+          perdagangan dan distribusi produk industri, serta mendukung
+          penyediaan solusi yang andal dan berkelanjutan bagi pelanggan.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
         {/* Values Section */}
         <div className='row mt-5'>
           <div className='col-12 text-center mb-5'>
@@ -152,55 +244,6 @@ function About() {
             </div>
           </div>
         </div>
-        {/* Agencies & Dealers Section */}
-<div className="row mt-5">
-  <div className="col-12 text-center mb-5">
-    <span className="badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-3">
-      Agencies & Dealers
-    </span>
-    <h3 className="fw-bold display-6">
-      Agencies & Authorized Dealers
-    </h3>
-    <p className="text-muted">
-      Principal dan mitra resmi yang mendukung solusi marine & industrial kami
-    </p>
-  </div>
-
-  <div className="col-lg-6 mb-4">
-    <div className="card border-0 shadow-sm h-100">
-      <div className="card-body p-4">
-        <h5 className="fw-bold mb-3 text-primary">
-          Main Engines & Generator Engines
-        </h5>
-        <ul className="list-unstyled text-muted mb-0">
-          <li>Yanmar Co., Ltd.</li>
-          <li>Daihatsu Diesel Mfg. Co., Ltd.</li>
-          <li>Mitsubishi Heavy Industries Ltd.</li>
-          <li>Kawasaki Heavy Industries Ltd.</li>
-          <li>IHI Corporation</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div className="col-lg-6 mb-4">
-    <div className="card border-0 shadow-sm h-100">
-      <div className="card-body p-4">
-        <h5 className="fw-bold mb-3 text-primary">
-          Auxiliary Equipment
-        </h5>
-        <ul className="list-unstyled text-muted mb-0">
-          <li>Alfa Laval KK</li>
-          <li>Furuno Electric Co., Ltd.</li>
-          <li>Mitsubishi Electric Corp.</li>
-          <li>NABTESCO K.K.</li>
-          <li>Yokogawa Denshi Kiki Co., Ltd.</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
       </div>
     </div>
   );
