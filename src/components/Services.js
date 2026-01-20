@@ -91,7 +91,7 @@ function Service(){
                         <i className='bi bi-award-fill text-primary fs-1'></i>
                     </div>
                     <h5 className='fw-bold mb-2'>Berpengalaman</h5>
-                    <p className='text-muted small mb-0'>Lebih dari 10 tahun melayani berbagai industri</p>
+                    <p className='text-muted small mb-0'>Lebih dari 3 tahun melayani berbagai industri</p>
                     </div>
                 </div>
                 <div className='col-lg-3 col-md-6'>
@@ -140,7 +140,7 @@ function Service(){
                     </div>
                     <div className='col-md-3 col-6 text-center mb-3'>
                         <i className='bi bi-award-fill text-primary display-4 mb-3'></i>
-                        <h2 className='fw-bold text-primary'>10+</h2>
+                        <h2 className='fw-bold text-primary'>3+</h2>
                         <p className='text-muted'>Tahun Pengalaman</p>
                     </div>
                     <div className='col-md-3 col-6 text-center mb-3'>

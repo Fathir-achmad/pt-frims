@@ -28,17 +28,13 @@ function About() {
                 className='img-fluid rounded shadow-lg'
                 style={{ borderRadius: '15px' }}
               />
-              <div className='position-absolute bottom-0 start-0 bg-primary text-white p-4 m-3 rounded shadow'>
-                <h3 className='mb-0 fw-bold'>10+</h3>
-                <p className='mb-0 small'>Tahun Pengalaman</p>
-              </div>
             </div>
           </div>
           <div className='col-lg-6 ps-lg-5'>
             <span className='badge bg-primary bg-opacity-10 text-primary px-3 py-2 mb-3'>Profil Perusahaan</span>
             <h3 className='mb-4 fw-bold'>Siapa Kami?</h3>
             <p className='text-muted mb-4 lh-lg'>
-              <strong className='text-dark'>PT FRIMS SUKSES BERSAMA</strong> adalah perusahaan yang bergerak di bidang perdagangan dan jasa dengan pengalaman lebih dari 10 tahun. Komitmen kami adalah memberikan produk berkualitas tinggi dan layanan terbaik kepada seluruh pelanggan.
+              <strong className='text-dark'>PT FRIMS SUKSES BERSAMA</strong> adalah perusahaan yang bergerak di bidang perdagangan dan jasa dengan pengalaman lebih dari 3 tahun. Komitmen kami adalah memberikan produk berkualitas tinggi dan layanan terbaik kepada seluruh pelanggan.
             </p>
             <p className='text-muted mb-4 lh-lg'>
               Dengan tim profesional dan berpengalaman, kami terus berinovasi untuk memenuhi kebutuhan pasar yang terus berkembang dan memberikan solusi terbaik bagi setiap klien kami.

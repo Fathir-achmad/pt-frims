@@ -12,7 +12,7 @@ function Footer() {
               <span>PT FRIMS SUKSES BERSAMA</span>
             </h5>
             <p className="small text-white-50 mb-4">
-              Perusahaan terpercaya dalam bidang perdagangan dan jasa reparasi dengan pengalaman lebih dari 10 tahun melayani kebutuhan industri dan rumah tangga.
+              Perusahaan terpercaya dalam bidang perdagangan dan jasa reparasi dengan pengalaman lebih dari 3 tahun melayani kebutuhan industri dan rumah tangga.
             </p>
             <ul className="list-unstyled small">
               <li className="mb-3 d-flex align-items-start">
